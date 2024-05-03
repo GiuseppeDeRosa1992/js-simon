@@ -12,6 +12,6 @@ function randomNumber() {
         }
         //concolelog dei numeri random generati
         console.log(random)
-        h2.innerText = `I numeri generati sono:${arrayRandom}`
+        h2.innerText = `I numeri generati sono:${arrayRandom} `
     }    
 }
