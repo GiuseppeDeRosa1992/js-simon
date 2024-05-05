@@ -63,9 +63,11 @@ function interval() {
                 let result = random == number
                 if (result) {
                     console.log("Complimenti hai indovinato tutti i numeri", result)
+                    h4.innerHTML = "Complimenti hai indovinato tutti i numeri"
                 }
                 else if (!result) {
                     console.log("Non hai indovinato tutti i numeri", result)
+                    h4.innerHTML = "Peccato...Non hai indovinato tutti i numeri"
                 }
                 //richiamo la funzione che ho trovato su internet
                 // arrayDifference()

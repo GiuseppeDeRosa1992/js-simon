@@ -13,6 +13,8 @@ let arrayUser = [];
 let h3 = document.querySelector("h3");
 //creo variabile per richiamare h1 da html
 let h1 = document.querySelector("h1");
+//creo variabile per richiamare h4 da html
+let h4 = document.querySelector("h4");
 
 
 //Richimao variabile randomNumber dalle function che ho creato
